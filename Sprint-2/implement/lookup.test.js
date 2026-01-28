@@ -19,7 +19,7 @@ test("returns empty object for empty array", () => {
 test("ignores invalid pairs", () => {
   const input = [
     ["US", "USD"],
-    ["CA"],            
+    ["CA"],
     "bad",            
     ["DE", "EUR"],
   ];
