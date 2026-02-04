@@ -1,1 +1,36 @@
 /** Write your CSS in here **/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4a742;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background: white;
+  padding: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+#quote {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #f4a742;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
